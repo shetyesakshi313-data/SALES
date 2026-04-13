@@ -1,0 +1,20 @@
+# Core (required)
+pandas>=2.0
+openpyxl>=3.1
+matplotlib>=3.7
+numpy>=1.24
+
+# Analysis & visualisation
+plotly>=5.0
+scipy>=1.10
+
+# Forecasting
+statsmodels>=0.14
+prophet>=1.1       # optional — install separately if needed
+
+# Dashboard
+streamlit>=1.30
+
+# Install all at once:
+# pip install pandas openpyxl matplotlib numpy plotly scipy statsmodels streamlit
+# pip install prophet   ← install separately (heavy dependency)
